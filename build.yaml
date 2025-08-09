@@ -22,7 +22,7 @@
 include:
   # LEFT / central: Studio enabled, always unlocked, USB RPC endpoint
   - board: nice_nano_v2
-    shield: corne_choc_pro_left
+    shield: corne_left
     snippet: studio-rpc-usb-uart
     cmake-args:
       -DCONFIG_ZMK_STUDIO=y
@@ -30,5 +30,5 @@ include:
 
   # RIGHT: normal build (no Studio needed)
   - board: nice_nano_v2
-    shield: corne_choc_pro_right
+    shield: corne_right
 
